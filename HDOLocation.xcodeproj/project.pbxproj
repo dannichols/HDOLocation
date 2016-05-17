@@ -212,6 +212,7 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/HDOPromise.framework",
 			);
 			outputPaths = (
 			);
