@@ -11,6 +11,7 @@
 		18BC54AA1CEAC1EF0073F676 /* HDOLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BC549F1CEAC1EE0073F676 /* HDOLocation.framework */; };
 		18BC54AF1CEAC1EF0073F676 /* HDOLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC54AE1CEAC1EF0073F676 /* HDOLocationTests.swift */; };
 		18BC54BA1CEAC2C50073F676 /* HDOPromise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BC54B91CEAC2C50073F676 /* HDOPromise.framework */; };
+		18BC54C01CEAC3E60073F676 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BC54BF1CEAC3E60073F676 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		18BC54AE1CEAC1EF0073F676 /* HDOLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDOLocationTests.swift; sourceTree = "<group>"; };
 		18BC54B01CEAC1EF0073F676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BC54B91CEAC2C50073F676 /* HDOPromise.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HDOPromise.framework; path = Carthage/Build/iOS/HDOPromise.framework; sourceTree = "<group>"; };
+		18BC54BF1CEAC3E60073F676 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				18BC54A21CEAC1EF0073F676 /* HDOLocation.h */,
 				18BC54A41CEAC1EF0073F676 /* Info.plist */,
+				18BC54BF1CEAC3E60073F676 /* LocationService.swift */,
 			);
 			path = HDOLocation;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BC54C01CEAC3E60073F676 /* LocationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
