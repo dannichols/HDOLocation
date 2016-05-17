@@ -20,6 +20,11 @@ public enum LocationServicePreference {
 /// Simple service to get the current location
 public class LocationService {
     
+    /// Creates a new location service
+    public init() {
+        
+    }
+    
     /// Quality to look at when comparing locations
     public var preference = LocationServicePreference.MostAccurate
     
