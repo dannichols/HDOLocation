@@ -1,0 +1,2 @@
+# HDOLocation
+Simple location manager
